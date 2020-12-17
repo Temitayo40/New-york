@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+:root{
+    --color-grey:#f5f5f5;
+    --color-grey-light: #e5e5a5;
+    --color-bg:#f9f9f9;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: #fff;
+    width: 100%;
+    font-family: sans-serif, "Roboto";
+}
+.menubar{
+    position: fixed;
+    display: flex;
+    top: 0;
+    border-top: 1px solid rgb(124, 124, 124);
+    border-bottom: 1px solid rgb(124, 124, 124);
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+ 
+ 
+}
+.menubar .logos{
+ margin: 15px 17px;
+}
+.menubar .logo i {
+    display: flex;
+    margin: 15px 17px;
+}
+.menubar .logo h4 {
+    position: absolute;
+    top: 18px;
+   left: 150px;
+}
+.menubar .logo h3 {
+    position: absolute;
+    top: 11px;
+   left: 500px;
+   font-family: 'Roboto', sans-serif;
+   font-size: 2rem;
+   font-family: "Georgia Script"; src: url("//db.onlinewebfonts.com/t/4ef9c8d4b3647859e401523e26f660e5.eot");
+}
+#box_a {
+    position: absolute;
+    right: 85px;
+    top: 10px;
+    width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    line-height: 40px;
+    font-size: .7rem;
+    color: #fff;
+    padding-left: 20px;
+}
+#box_b{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 70px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: blue;
+    line-height: 40px;
+    font-size: .7rem;
+    color: #fff;
+    padding-left: 10px;
+}
+.mainbody {
+    width: 100%;
+    margin-top: 20px;
+    color: black;
+
+}
+
+.mainbody .middle #heading  {
+  margin-left: 300px;
+    font-size: 1.5rem;
+    padding-top: 100px;
+    font-family: "Georgia"; src: url("//db.onlinewebfonts.com/t/1e4e5d1975bdf4a5c648afbf8872fa13.eot");
+}
+.mainbody .middle #bridge {
+    border-top: 1px solid #ebebeb;
+    margin-top: 20px;
+    width: 600px;
+    margin-left: 300px ;
+}
+.mainbody .middle #icons {
+    margin-left: 300px ;
+    display: inline;
+    height: 0px;
+    vertical-align: middle;
+    width: 15px;
+    background-color: #eee;
+    
+}
+.mainbody .picture .image {
+  padding-top: 25px;
+  padding-left: 150px;
+  height: auto;
+  max-width: 100%
+}
+.mainbody .picture .image .text {
+   display: inline-block;
+   margin-right: 400px;
+}
+.mainbody .picture .image .text p {
+    font-size: 14px;
+}
+.mainbody .picture .image .text p1 {
+    font-size: 12px;
+}
+ .content .head h1 {
+     padding-top: 50px;
+     padding-left: 300px;
+     font-size: 15px;
+ }
+ .content .head p {
+    padding-top: 15px;
+    padding-left:300px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.content .head h1 a {
+   color: black;
+}
+
+.content .letters p {
+    padding-left:  300px;
+    padding-right: 400px;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(100, 100, 100);
+}
+
+.content .letters .video {
+    padding-left:  300px;
+    padding-right: 400px;
+}
+.content .letters .video p {
+     display: inline;
+     margin-left: -300px;
+     font-size: 13px;
+}
+.content .letters .wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   margin-left:150px;
+    grid-column-gap:1em;
+    width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: "Georgia"; src: url("//db.onlinewebfonts.com/t/1e4e5d1975bdf4a5c648afbf8872fa13.eot");
+}
+.content .letters .wrapper > div {
+    background: rgb(255, 254, 253);
+    padding: 1em;
+}
+.content .letters h2 {
+    margin: 15px 320px;
+}
+.content .letters .telescope {
+    margin-left: 200px;
+  }
+  .content .letters .telescope img[src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-jumbo.jpg?quality=90&auto=webp"] {
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+  }
+  .content .letters .telescope p {
+    margin-bottom: 20px;
+    margin-left: -200px;
+    font-size: 13px;
+  }
+
+.content .side_bar{
+    position: absolute;
+    right: 100px;
+    top: 1700px;
+}
+.content .side_bar .editors h5{
+    margin: 10px 10px;
+}
+.content .side_bar .editors #bar {
+    border-top: 1px solid  rgb(194, 194, 194);
+    width: 200px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.content .side_bar .first {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  
+    
+}
+.content .side_bar .first img[ src="https://static01.nyt.com/images/2020/12/15/well/physed-swimming/physed-swimming-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350"] {
+     width: 80px;
+     height: 80px;
+     margin: 0 10px;
+}
+.content .side_bar .first img[ src="https://static01.nyt.com/images/2020/12/02/lens/00xp-1918holiday-child/00xp-1918holiday-child-square640.jpg?quality=75&auto=webp&disable=upscale&width=350"] {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+}
+.content .side_bar .first img[ src="https://static01.nyt.com/images/2020/12/10/arts/08silverlining-02/08silverlining-02-square640-v2.jpg?quality=75&auto=webp&disable=upscale&width=350"] {
+    width: 80px;
+    height: 80px;
+    margin: 0 10px;
+}
+.content .side_bar .first p {
+    width: 95px;
+    font-size: 13.5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.content .side_bar .first p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.content .footer .border {
+    border-top: double rgb(211, 211, 211);
+    border-bottom: 1px solid rgb(211, 211, 211);
+    height: 15px;
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+}
+.content .footer .foot {
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+.content .footer .foot p {
+    display: inline; 
+    font-size: 11px;
+    margin: 0 5px;
+}
+.content .footer .foot p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
