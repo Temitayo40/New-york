@@ -13,7 +13,7 @@ The aim of this project is to develop a webpage similar to The New York Times Ne
   
 
 ## Live demo
-[Live Demo Link](https://github.com/Temitayo40/youtube-/commit/f74d81ca8d73e84cca79813a0589ac602c76050f)
+[Live Demo Link](https://rawcdn.githack.com/Temitayo40/New-york/95c9f1eb33ab4fb4577b9954b769f85c1488e3c3/index.html)
 
 ## Getting started
 * I created a website cloned from New York Times. The design specifications were gotten from [ordinproject.com](https://www.ordinsproject.com). The project consist of one working pages (including navigation bar, body and footer) with a display of system view
